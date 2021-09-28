@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11 (Wireframe)</title>
+    <script src="https://kit.fontawesome.com/ccb031249e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1><a class="logo" href="#">Blockbuster</a></h1>
+        </nav>
+    </header>
+    <div class="sidenav">
+        <a href="#"><i class="far fa-file-alt"></i><span>Novo</span></a>
+        <a href="#"><i class="far fa-folder-open"></i><span>Abrir</span></a>
+        <a href="#"><i class="fas fa-print"></i><span>Imprimir</span></a>
+        <a href="#"><i class="fas fa-times"></i><span>Fechar</span></a>
+    </div>
+
+    <div class="content-external-area">
+        <div class="content-card">
+            <h2>Cadastro de Filmes</h2>
+            <form>
+                <label>Nº do Filme:</label>
+                <input type="text">
+
+                <label>Tipo do Produto:</label>
+                <select name="select">
+                    <option value="VHS" selected>VHS</option>
+                    <option value="DVD">DVD</option>
+                    <option value="Streaming">Streaming</option>
+                </select>
+
+                <label>Tipo do Filme:</label>
+                <select name="select">
+                    <option value="valor1" selected>24 HORAS</option>
+                    <option value="valor2">Valor 2</option>
+                    <option value="valor3">Valor 3</option>
+                </select>
+
+                <label>Genero:</label>
+                <select name="select">
+                    <option value="valor1" selected>AÇÃO</option>
+                    <option value="valor2">AVENTURA</option>
+                    <option value="valor3">BIOGRÁFICO</option>
+                    <option value="valor3">COMÉDIA</option>
+                    <option value="valor3">DRAMA</option>
+                    <option value="valor3">FANTASIA</option>
+                    <option value="valor3">FICÇÃO CIENTIFICA</option>
+                    <option value="valor3">MUSICAL</option>
+                    <option value="valor3">ROMANCE</option>
+                    <option value="valor3">TERROR</option>
+                </select>
+
+                <label>Titulo do Filme:</label>
+                <input type="text" value="+VELOZES +FURIOSOS">
+
+                <label>Principais Atores:</label>
+                <input type="text" value="PAUL WALKER, TYRESE, EVA MENDES">
+
+                <label>Principais Diretores:</label>
+                <input type="text" value="JOHN SINGLETON">
+
+                <label>Fornecedor :</label>
+                <select name="select">
+                    <option value="valor1">Valor 1</option>
+                    <option value="valor2" selected>NOVA ERA VIDEO</option>
+                    <option value="valor3">Valor 3</option>
+                </select>
+
+                <label>Tipo de Idioma:</label>
+                <input type="text">
+
+                <label>Valor da Locação:</label>
+                <input type="text" value="R$ 2,50">
+
+                <label>Data do Cadastro:</label>
+                <input type="date">
+                <Input type="submit" value="Salvar">
+
+                <input type="reset" value="Limpar">
+            </form>
+        </div>
+        <div class="content-card-2">
+
+            <hr>
+            <h2>Cadastrados:</h2>
+            <Table>
+                <tr>
+                    <th>Nº do Filme:</th>
+                    <th>Nome do Filme:</th>
+                    <th>Diretores:</th>
+                    <th>EXCLUIR</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>O Homem de Aço</td>
+                    <td>Zack Snyder</td>
+                    <td class="delete-movie">
+                        <a href="#"><i class="fas fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Batman vs Superman: A Origem da Justiça</td>
+                    <td>Zack Snyder</td>
+                    <td class="delete-movie">
+                        <a href="#"><i class="fas fa-trash-alt"></i></a>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Esquadrão Suicida</td>
+                    <td>David Ayer</td>
+                    <td class="delete-movie">
+                        <a href="#"><i class="fas fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Mulher-Maravilha</td>
+                    <td> Patty Jenkins</td>
+                    <td class="delete-movie">
+                        <a href="#"><i class="fas fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Liga da Justiça</td>
+                    <td>Joss Whedon</td>
+                    <td class="delete-movie">
+                        <a href="#"><i class="fas fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Aquaman</td>
+                    <td>James Wan</td>
+                    <td class="delete-movie">
+                        <a href="#"><i class="fas fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+            </Table>
+
+        </div>
+    </div>
+
+</html>

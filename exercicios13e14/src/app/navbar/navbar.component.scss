@@ -1,0 +1,47 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  .mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+.toolbar-spacer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mat-nav-list{
+  span{
+    padding-left: 15px;
+  }
+}
+
+.mat-toolbar{
+  span{
+    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+  }
+}
+
+footer{
+  margin-top: 50px;
+  height: 200px;
+  background-color: #464646;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+}

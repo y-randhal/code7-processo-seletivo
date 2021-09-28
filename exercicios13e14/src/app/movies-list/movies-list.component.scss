@@ -1,0 +1,32 @@
+.mat-cards-wrap {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie-card {
+    font-family: 'Montserrat', sans-serif;
+    width: 28%;
+    min-width: 280px;
+    margin: 1rem;
+}
+
+mat-card-header {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    mat-card-title{
+        font-weight: bold;
+    }
+}
+mat-card-content {
+    .mat-card-subinformation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    img {
+        width: 100%;
+    }
+}
